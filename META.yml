@@ -1,0 +1,26 @@
+--- #YAML:1.0
+name:               OpenERP-XMLRPC-Simple
+version:            0.12
+abstract:           Simple interaction with OpenERP XML RPC interface.
+author:
+    - Benjamin Martin <ben@madeofpaper.co.uk>
+license:            perl
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  6.31
+build_requires:  {}
+requires:
+    File::ShareDir:       1.02
+    File::Slurp:          9999.13
+    Moose:                1.15
+    MooseX::Role::XMLRPC::Client:  0.04
+    Net::HTTPServer:      1.1.1
+    XML::Simple:          2.18
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.57_05
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4
