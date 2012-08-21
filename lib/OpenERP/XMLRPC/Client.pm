@@ -1,7 +1,7 @@
 package OpenERP::XMLRPC::Client;
 # ABSTRACT: XMLRPC Client tweaked for OpenERP interaction.
 
-our $VERSION = '0.12';
+our $VERSION = '0.13';
 
 use 5.010;
 use Moose;
@@ -530,13 +530,15 @@ L<RPC::XML::Client>
 =head1 AUTHOR
 
 Benjamin Martin <ben@madeofpaper.co.uk>
+Colin Newell <colin@opusvl.com>
+Jon Allen (JJ) <jj@opusvl.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2010 Opus Vision Limited
+Copyright (C) 2010 OpusVL
 
-This software is licensed according to the "IP Assignment Schedule"
-provided with the development project.
+This library is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself.
 
 =cut
 
