@@ -1,0 +1,38 @@
+{
+   "abstract" : "Simple interaction with OpenERP XML RPC interface.",
+   "author" : [
+      "Benjamin Martin <ben@madeofpaper.co.uk>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.102343, CPAN::Meta::Converter version 2.102400, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "OpenERP-XMLRPC-Simple",
+   "prereqs" : {
+      "build" : {
+         "requires" : {}
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::ShareDir" : "1.02",
+            "File::Slurp" : "9999.13",
+            "Moose" : "1.15",
+            "MooseX::Role::XMLRPC::Client" : "0.04",
+            "Net::HTTPServer" : "v1.1.1",
+            "XML::Simple" : "2.18"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.001"
+}
